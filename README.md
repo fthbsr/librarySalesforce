@@ -1,18 +1,27 @@
-# Salesforce DX Project: Next Steps
+# Step 1
+In this step, I first created the objects, then we create the fields and the relations of the fields.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+# Step 2
+In this step, we wrote the validation rule.
 
-## How Do You Plan to Deploy Your Changes?
+# Step 3
+In this step, we sent this information to the user while adding a book.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+# Step 4
+we loaded author data
 
-## Configure Your Salesforce DX Project
+# Step 5
+In this step, we wrote a method that checks if the user exists and freezes whether the user is a member.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+# Step 6
+In this STEP, we wrote a method that returns the user information with the id obtained from the user.
 
-## Read All About It
+# Step 7
+In this step, we have defined a method to fix the wrong author name.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+# Step 8
+In this step, we created a trigger that runs when the member is given a book.
+
+# Step 9
+In the last step, we performed a batch operation that enlarges the letters of the wrongly spelled author names.
+
